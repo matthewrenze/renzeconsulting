@@ -1,0 +1,48 @@
+// Styling for the team section
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+  img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid $white;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+
+    li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+        a {
+            font-size: 20px;
+            line-height: 40px;
+            display: block;
+            width: 40px;
+            height: 40px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            color: white;
+            border-radius: 100%;
+            outline: none;
+            background-color: $primary;
+
+            &:active,
+            &:focus,
+            &:hover {
+                background-color: darken($primary, 10%);
+            }
+        }
+    }
+}
